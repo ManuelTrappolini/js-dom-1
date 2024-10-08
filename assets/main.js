@@ -20,9 +20,9 @@ buttonEl.addEventListener('click', function(){
 }) */
 
 
+
 buttonEl.addEventListener('click', function(){
-    let imgEl = 'switch'.includes()
-    if('switch'.includes('lamp')){
+    if(imgEl.src.includes('/assets/img/white') ){
     imgEl.src = './assets/img/yellow_lamp.png';
     buttonEl.innerHTML = 'Spegni'
     }
